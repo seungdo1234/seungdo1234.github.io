@@ -1,0 +1,103 @@
+body{
+
+    background-image: url("image1.jpg");
+    background-repeat: no-repeat;
+    background-size:  cover;
+
+}
+#index
+{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size:  cover;
+
+}
+#flex0_index{
+   text-align: center;
+    height: 70px;
+    margin: 0px;
+    padding: 30px;
+}
+#flex0_QM{
+    text-align: center;
+    height: 30px;
+    margin: 0px;
+    padding: 30px;
+}
+h1{
+    margin-bottom: 0px;
+
+}
+a{
+    color:black;
+    text-decoration:  none;
+}
+ol{
+    height: 800px;
+}
+#flex_index{
+    display: flex;
+    color:black;
+    text-decoration:  none;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+     }  
+#flex2_index{
+    padding-top: 30px;
+    display: flex;
+    color:black;
+    height: 300px;
+    text-decoration:  none;
+    align-items:  flex-start;
+    justify-content: space-evenly;
+    } 
+#flex1_QM{
+    display: flex;
+    color:black;
+    height: 800px;
+    padding-left: 215px;
+    text-decoration:  none;
+    flex-direction: column;
+    align-items: space-evenly;
+}
+#flexin1_QM{
+    display: flex;
+    padding-top: 1cm;
+    padding-bottom: 0.5cm;
+    justify-content: space-between;
+}
+
+#flexin3_QM{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#flexin4_QM{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: flex-start;
+}
+#flewin1_TR{
+    display: flex;
+    justify-content: space-between;
+}
+#TR_image{
+    display: flex;
+    color:black;
+    height: 800px;
+    text-decoration:  none;
+    flex-direction: column;
+    align-items: stretch;
+}
+#TR_image1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+#flexin1_flower{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
